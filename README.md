@@ -10,4 +10,4 @@ cd predictive_maintenance_project
 pip install -r requirements.txt
 ```
 ## Видео-демонстрация
-[Смотреть видео](video/demo.mp4)
+[Смотреть видео](predictive_maintenance_project/video/demo.mp4)
