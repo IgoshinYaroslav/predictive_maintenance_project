@@ -1,18 +1,27 @@
 # Проект: Бинарная классификация для предиктивного обслуживания оборудования
 
-## Цель
-Создание модели машинного обучения для предсказания отказа оборудования.
+## Описание проекта
+Цель проекта — разработать модель машинного обучения, которая предсказывает, произойдет ли отказ оборудования (Target = 1) или нет (Target = 0). Результаты работы оформлены в виде Streamlit-приложени
 
-## Описание
-Модель предсказывает отказы оборудования на основе данных датчиков. Реализовано в Streamlit.
+## Датасет
+Используется датасет **"AI4I 2020 Predictive Maintenance Dataset"**, содержащий 10 000 записей с 14 признаками. Подробное описание датасета можно найти в [документации](https://archive.ics.uci.edu/dataset/601/predictive+maintenance+data).
 
 ## Установка и запуск
-```bash
-git clone https://github.com/IgoshinYaroslav/predictive_maintenance_project.git
-cd predictive_maintenance_project
-pip install -r requirements.txt
-streamlit run app.py
-```
+1. Клонируйте репозиторий:
+
+  git clone https://github.com/IgoshinYaroslav/predictive_maintenance_project.git
+
+2. Переключитесь на директорию:
+
+  cd predictive_maintenance_project
+
+3. Установите зависимости:
+
+  pip install -r requirements.txt
+
+4. Запустите приложение:
+
+  streamlit run app.py
 
 ## Структура репозитория
 - `app.py`: Основной файл приложения.
