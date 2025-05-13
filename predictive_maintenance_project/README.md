@@ -23,4 +23,4 @@ streamlit run app.py
 - `README.md`: Описание проекта.
 
 ## Видео-демонстрация
-<video src="video/demo.mp4" controls width="100%"></video>
+[Ссылка на видео](video/demo.mp4)
